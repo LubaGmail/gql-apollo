@@ -1,0 +1,125 @@
+body {
+    background: rgb(44, 49, 54);
+    font-family: "sans-serif";
+    color: silver;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.img1 { 
+    max-width: 80% !important;
+    height: auto !important;
+    margin-left: 8%;
+    border-width:5px;  
+    border-style:inset;
+ } 
+
+.img2 { 
+  max-width: 5% !important;
+  height: auto !important;
+} 
+
+ul {
+   list-style-type: none;
+ }
+
+.div2 {
+   max-width: 40%;
+   margin-left: 10%;
+   float: left;
+   font-size: large;
+}
+
+.div3 {
+  max-width: 40%;
+  margin-right: 15%;
+  float: right;
+  font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+  .div2, .div3 {
+      float: none;
+      width: 80%;
+      display: block;
+      margin-left: 20%;
+      margin-bottom: 5%;
+    
+  }
+  .div2 table td, 
+  .div3 table td {
+    font-size: xx-small;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .div2, .div3 {
+      float: none;
+      width: 80%;
+      display: block;
+      margin-left: 20%;
+      margin-bottom: 5%;
+    
+  }
+  .div2 table td, 
+  .div3 table td {
+    font-size: smaller;
+  }
+}
+
+table {
+  border-style: outset;
+  border-width: 3px;
+}
+
+.table1 th {
+  background-color: #03020E;
+  color: gray;
+  font-size: large;
+}
+
+.table1 tr:hover { 
+  background-color: #03020E;
+}
+
+.button1 {
+  background-color: #03020E;
+  color: silver;
+  width: 100%;
+  font-size: large;
+}
+
+.button1:hover {
+  background-color: rgb(13, 6, 83);
+  font-size: large;
+  
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #03020E;
+  color: silver;
+  text-align: center;
+  border-width:1px;  
+  border-style:inset;
+}
