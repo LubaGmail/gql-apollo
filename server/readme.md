@@ -7,8 +7,8 @@
 npm i nodemon -g
 c:\ws\graphql-app\server>npm init
 npm i --save express
-npm --save graphql 
-npm --save express-graphql 
+npm i --save graphql 
+npm i --save express-graphql 
 npm i --save cors           // allow to accept requests from other servers
 npm i --save lodash 
 npm i --save mongoose
